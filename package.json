@@ -1,0 +1,29 @@
+{
+  "name": "broccoli-tree-difference",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "broccoli-merge-trees": "^1.1.1",
+    "broccoli-plugin": "^1.0.0",
+    "can-symlink": "^1.0.0",
+    "debug": "^2.2.0",
+    "fast-ordered-set": "^1.0.2",
+    "fs-tree-diff": "^0.4.4",
+    "rimraf": "^2.4.3",
+    "symlink-or-copy": "^1.0.0"
+  },
+  "devDependencies": {
+    "broccoli-cli": "^1.0.0",
+    "broccoli-fixture": "^0.1.0",
+    "chai": "^3.4.0",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.3.3",
+    "mocha-jshint": "^2.2.5"
+  }
+}
