@@ -1,7 +1,7 @@
 {
   "name": "broccoli-tree-difference",
   "version": "0.0.1",
-  "description": "",
+  "description": "Combine nodes yielding a transform node made up of files belonging to one and only one of the input nodes.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
