@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "Spencer Claxton (saclaxton@gmail.com)",
+  "author": "Spencer Claxton <saclaxton@gmail.com>",
   "keywords": ["broccoli", "tree", "difference", "minus"],
   "license": "MIT",
   "dependencies": {
