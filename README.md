@@ -30,7 +30,7 @@ If this is your `Brocfile.js`:
 
 ```js
 var BroccoliMergeTrees = require('broccoli-tree-difference');
-vat Funnel = require('broccoli-funnel);
+vat Funnel = require('broccoli-funnel');
 
 module.exports = new BroccoliMergeTrees(['public', new Funnel('public', { srcDir: 'images', destDir: 'images' })]);
 ```
