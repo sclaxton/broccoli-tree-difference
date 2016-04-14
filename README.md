@@ -13,7 +13,7 @@ npm install --save-dev broccoli-tree-difference
 ```js
 var TreeDifference = require('broccoli-tree-difference');
 
-var difference = new BroccoliMergeTrees(inputNodes, options);
+var difference = new TreeDifference(inputNodes, options);
 ```
 
 * **`inputNodes`**: An array of nodes, whose contents will be merged
