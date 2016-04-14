@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "author": "",
+  "author": "Spencer Claxton (saclaxton@gmail.com)",
+  "keywords": ["broccoli", "tree", "difference", "minus"],
   "license": "MIT",
   "dependencies": {
     "broccoli-merge-trees": "^1.1.1",
