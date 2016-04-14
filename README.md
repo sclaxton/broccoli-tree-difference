@@ -29,10 +29,10 @@ var difference = new BroccoliMergeTrees(inputNodes, options);
 If this is your `Brocfile.js`:
 
 ```js
-var BroccoliMergeTrees = require('broccoli-tree-difference');
+var TreeDifference = require('broccoli-tree-difference');
 vat Funnel = require('broccoli-funnel');
 
-module.exports = new BroccoliMergeTrees(['public', new Funnel('public', { srcDir: 'images', destDir: 'images' })]);
+module.exports = new TreeDifference(['public', new Funnel('public', { srcDir: 'images', destDir: 'images' })]);
 ```
 
 And your project contains these files:
