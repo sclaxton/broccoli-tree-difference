@@ -1,6 +1,6 @@
 # broccoli-tree-difference
 
-Copy multiple trees with the result tree having only nodes belonging to exactly one tree.
+Combine nodes yielding a transform node made up of files belonging to one and only one of the input nodes.
 
 ## Installation
 
