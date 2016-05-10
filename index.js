@@ -14,8 +14,7 @@ function BroccoliTreeDifference(inputNodes, options) {
   if (!Array.isArray(inputNodes)) {
     throw new TypeError(name + ': Expected array, got: [' + inputNodes +']')
   }
-  Plugin.call(this, inputNodes, {
-    persistentOutput: true,
+  BroccoliMergeTrees.call(this, inputNodes, {
     annotation: options.annotation
   })
 
