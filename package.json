@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sclaxton/broccoli-tree-difference.git"
+  },
   "author": "Spencer Claxton <saclaxton@gmail.com>",
   "keywords": ["broccoli", "tree", "difference", "minus"],
   "license": "MIT",
